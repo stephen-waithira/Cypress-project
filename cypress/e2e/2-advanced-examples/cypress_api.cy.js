@@ -158,6 +158,7 @@ context('Cypress APIs', () => {
       expect(Cypress.platform).to.be.exist
     })
   })
+  text('Cypress.version', () => {
 
   context('Cypress.version', () => {
     beforeEach(() => {
